@@ -16,6 +16,8 @@ const Input = ()=>{
     const handleChange = e=>{
      let {name ,value} = e.target
         setInfo({...info, [name] : value})
+        //here we are destructuring info object and overiding 
+        // the filds to the values
     }
 
     const  handleData= ()=>{
